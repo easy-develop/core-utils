@@ -13,7 +13,7 @@ public class StringsUtil {
      * 
      * @param text The {@code String} for which white spaces are to be normalized
      * 
-     * @return The {@String} in which multiple occurrences of consecutive whitespace are trimmed to single space character
+     * @return The {@code String} in which multiple occurrences of consecutive whitespace are trimmed to single space character
      */
     public static String getWhitespaceNormalized(String text){
         return text.replaceAll("\\s+", " ").trim();
